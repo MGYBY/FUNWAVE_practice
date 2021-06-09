@@ -5,7 +5,7 @@ import pandas
 #fdir = './output/'
 
 file_interval = 1
-file_start = 1
+file_start = 0
 file_end = 5+file_interval
 
 dx = 0.01
