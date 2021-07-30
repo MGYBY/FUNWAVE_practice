@@ -16,7 +16,7 @@ x = np.asarray([float(xa-0.50)*dx for xa in range(m)])
 output_series = np.arange(file_start, file_end, step=file_interval, dtype=int)
 
 for i in output_series:
-    if i>=10:
+    if i>=10 and i<100:
         filename_eta = "eta_000"+str(i)
         filename_u = "u_000"+str(i)
         filename_v = "v_000"+str(i)
